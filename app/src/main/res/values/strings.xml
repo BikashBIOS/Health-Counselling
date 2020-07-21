@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Health Counselling</string>
+    <string name="agora_app_id">a17622ca457e4b119e7a0aa80f2926ae</string>
+    <string name="profileDoctor">Profile</string>
+    <string name="profilePatient">Profile</string>
+    <string name="listDoctors">List of Doctors</string>
+    <string name="listPatients">List of Patients</string>
+
+    <string name="email">Email</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patient</string>
+    <string name="welcome">Welcome</string>
+    <string name="register">Register</string>
+    <string name="speciality">Speciality</string>
+    <string name="qualification">Qualification</string>
+    <string name="designation">Designation</string>
+    <string name="institution">Institution</string>
+    <string name="account">Account Number</string>
+    <string name="hours">Hours you will Work</string>
+    <string name="confirmp">Confirm Password</string>
+    <string name="joinvideo">Join Video Session</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="signout">Sign Out</string>
+    <string name="password">Password</string>
+    <string name="otp">O.T.P</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="town">Town</string>
+    <string name="district">District</string>
+    <string name="pincode">Pincode</string>
+    <string name="phoneNo">Phone Number</string>
+    <string name="login">Log In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="donthaveaccountsignup">Don\'t have an account? Sign Up</string>
+    <string name="allreadyhaveanaccountlogin">Already have an account? Log in</string>
+    <string name="acceptCondtion">Accept Terms and Condition!</string>
+    <string name="clickhere"> Click here</string>
+    <string name="provideDetail"> Provide Required Details</string>
+    <string name="submit">Submit</string>
+    <string name="listofPatients">List of Patients</string>
+    <string name="listofDoctors">List of Doctors</string>
+</resources>

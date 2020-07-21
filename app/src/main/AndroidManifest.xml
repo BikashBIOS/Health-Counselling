@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ultracure">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Patient.PatientDetails"></activity>
+        <activity android:name=".Patient.PatientsProfile" />
+        <activity android:name=".VerifyOTP" />
+        <activity android:name=".VerifyPhone" />
+        <activity android:name=".Patient.PatientMainActivity" />
+        <activity android:name=".Patient.PatientsGoogle" />
+        <activity android:name=".VideoChat" />
+        <activity android:name=".Doctor.DoctorsGoogle" />
+        <activity android:name=".Doctor.DoctorEdit" />
+        <activity android:name=".Doctor.DoctorDetails" />
+        <activity android:name=".Doctor.DoctorsProfile" />
+        <activity android:name=".Patient.LoginPatient" />
+        <activity android:name=".Patient.RegistrationPatient" />
+        <activity android:name=".ChoiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Doctor.LoginActivity" />
+        <activity android:name=".Doctor.RegistrationActivity" />
+        <activity android:name=".Doctor.DoctorMainActivity" />
+    </application>
+
+</manifest>

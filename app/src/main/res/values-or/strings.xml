@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Health Counselling</string>
+    <string name="agora_app_id">a17622ca457e4b119e7a0aa80f2926ae</string>
+    <string name="profileDoctor">Profile</string>
+    <string name="profilePatient">Profile</string>
+    <string name="listDoctors">List of Doctors</string>
+    <string name="listPatients">List of Patients</string>
+
+    <string name="email">ଇମେଲ୍</string>
+    <string name="password">ପାସୱାର୍ଡ</string>
+    <string name="otp">O.T.P</string>
+    <string name="name">ନାମ</string>
+    <string name="age">ବୟସ</string>
+    <string name="gender">ଲିଙ୍ଗ</string>
+    <string name="address">ଠିକଣା</string>
+    <string name="town">ଟାଉନ୍</string>
+    <string name="district">ଜିଲ୍ଲା</string>
+    <string name="pincode">ପିଙ୍କୋଡ୍ </string>
+    <string name="phoneNo">ଫୋନ୍ ନମ୍ବରr</string>
+    <string name="login">ଲଗଇନ୍ କରନ୍ତୁ</string>
+    <string name="signUp">ସାଇନ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="donthaveaccountsignup">ଖାତା ନାହିଁ? ସାଇନ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="allreadyhaveanaccountlogin">ପୂର୍ବରୁ ଏକ ଖାତା ଅଛି କି? ଭିତରକୁ ଯାଉ</string>
+    <string name="acceptCondtion">ସର୍ତ୍ତ ଏବଂ ସର୍ତ୍ତ ଗ୍ରହଣ କରନ୍ତୁ!</string>
+    <string name="clickhere"> ଏଠି କ୍ଲିକ କରନ୍ତୁ</string>
+    <string name="provideDetail">ଆବଶ୍ୟକ ବିବରଣୀ ପ୍ରଦାନ କରନ୍ତୁ</string>
+    <string name="submit">ଦାଖଲ କର</string>
+    <string name="doctor">ଡାକ୍ତର</string>
+    <string name="patient">ରୋଗୀ</string>
+    <string name="welcome">ସ୍ୱାଗତ</string>
+    <string name="register">ପଞ୍ଜିକରଣ</string>
+    <string name="speciality">ବିଶେଷତା</string>
+    <string name="qualification">ଯୋଗ୍ୟତା</string>
+    <string name="designation">ପଦବୀ</string>
+    <string name="institution">ସଂସ୍ଥା</string>
+    <string name="account">ବ୍ୟାଙ୍କ ଆକାଉଣ୍ଟ ନମ୍ବର</string>
+    <string name="hours">ଆପଣ କେତେ ଘଣ୍ଟା କାମ କରିବେ</string>
+    <string name="confirmp">ପାସ୍ବାଡ଼ ନିସ୍ଚିତ କର</string>
+    <string name="joinvideo">ଭିଡିଓ ଅଧିବେଶନରେ ଯୋଗ ଦିଅନ୍ତୁ</string>
+    <string name="dashboard">ଡ୍ୟାସବୋର୍ଡ</string>
+    <string name="signout">ସାଇନ୍ ଆଉଟ୍</string>
+    <string name="listofPatients">ରୋଗୀଙ୍କ ତାଲିକା</string>
+    <string name="listofDoctors">ଡାକ୍ତରଙ୍କ ତାଲିକା</string>
+</resources>

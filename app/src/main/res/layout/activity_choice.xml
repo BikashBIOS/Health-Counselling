@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".ChoiceActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/black"
+        android:text="@string/welcome"
+        android:textSize="40sp"
+        android:id="@+id/welcome"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/welcome"
+        android:text="Health Counselling"
+        android:textSize="40sp"
+        android:id="@+id/health_counselling"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/health_counselling"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logochoice"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/patient"
+        android:layout_below="@+id/logochoice"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:id="@+id/patientbtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/patientbtn"
+        android:text="@string/doctor"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:id="@+id/doctorbtn"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/txt_languageChange"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/doctorbtn"
+        android:text="Choose your Language.."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

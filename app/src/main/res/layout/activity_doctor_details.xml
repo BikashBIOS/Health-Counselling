@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Doctor.DoctorDetails">
+
+    <!--<ImageView
+        android:id="@+id/imagegoogledoctor"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reg. Id:"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:id="@+id/txtregid"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary"
+        android:id="@+id/txtname"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary"
+        android:id="@+id/txtemail"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile:"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:id="@+id/txtmobile"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speciality: "
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:id="@+id/txtspeciality"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qualification: "
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:id="@+id/txtqualification"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Designation: "
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:id="@+id/txtdesignation"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Institution: "
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:id="@+id/txtinstitution"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preferred Hours: "
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:id="@+id/txthours"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account: "
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:id="@+id/txtaccount"
+        android:layout_marginBottom="20dp"
+        />
+
+</LinearLayout>
